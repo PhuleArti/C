@@ -9,7 +9,7 @@ void RevDigits( int no)
       
       if( no< 0)
       {
-            no = - no;
+          no = - no;
       }
       
       printf(" Number in reverse order:");
