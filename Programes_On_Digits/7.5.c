@@ -25,7 +25,7 @@ int CountDiff( int no)
             else 
             if( digit % 2 != 0)
             {
-                 Sum_2 = Sum_2 + digit;
+                Sum_2 = Sum_2 + digit;
             }
               
             no = no/10 ;
