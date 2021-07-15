@@ -14,21 +14,21 @@ Boolean ChkZero( int No)
        
        if(No == 0)
        {
-             return TRUE;
+           return TRUE;
        }
        
        while (No != 0)
        {
              digit = No % 10;
              
-               if(digit == 0)
-               {
-                    return TRUE ;
-               }
-               else
-               {
-                   return FALSE ; 
-               }
+             if(digit == 0)
+             {
+                 return TRUE ;
+             }
+             else
+             {
+                 return FALSE ; 
+             }
        
              No = No /10 ;
        }
