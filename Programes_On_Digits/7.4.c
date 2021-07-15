@@ -26,7 +26,7 @@ int MultDigit( int no)
             
             no = no/10 ;
       }
-      return Mult;
+       return Mult;
 }
 int main()
 {
