@@ -10,7 +10,7 @@ int CountTwo( int no)
       
       if( no< 0)
       {
-            no = - no;
+           no = - no;
       }
       
       while(no != 0)
