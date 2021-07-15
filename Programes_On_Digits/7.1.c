@@ -22,7 +22,7 @@ int CountEven( int no)
             }
             no = no/10 ;
       }
-      return Cnt;
+       return Cnt;
 }
 int main()
 {
