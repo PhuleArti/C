@@ -28,6 +28,7 @@ int Difference( int arr[], int size)
                 
          }
          differ = sum1 - sum2;
+  
          return differ;
 }
 int main()
