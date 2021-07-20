@@ -1,6 +1,5 @@
 /*
-Accept N numbers from user check whether that numbers contains 11 in
-it or not.
+Accept N numbers from user check whether that numbers contains 11 in it or not.
 Input : N : 7
 Elements : 85  66  3  80  11  88  98
 Output :  true  (11 is present in it).
