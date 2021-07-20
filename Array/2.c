@@ -11,12 +11,14 @@ Output :  85   80
 void Display ( int arr[], int size)
 {
          int cnt = 0;
-          printf("Elements divisible by 5 are :\n");
+  
+         printf("Elements divisible by 5 are :\n");
+  
          for(cnt = 0; cnt < size ; cnt++)
          {
                 if((arr[cnt] %5) ==0)
                 {
-                      printf(" %d\t", arr[cnt]);
+                     printf(" %d\t", arr[cnt]);
                 }
          }
 }
