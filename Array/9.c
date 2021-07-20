@@ -17,7 +17,7 @@ int CountEleven( int arr[], int size)
          {
                 if(arr[cnt] == 11)
                 {
-                         Counter++;
+                    Counter++;
                 }    
          }
          return Counter ;
