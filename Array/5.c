@@ -1,6 +1,5 @@
 /*
-Accept N numbers from user and display all such elements which are
-multiples of 11.
+Accept N numbers from user and display all such elements which are multiples of 11.
 Input : N : 6
 Elements : 85  66  15  88  93  45
 Output :    66  88
@@ -13,7 +12,7 @@ void Display ( int arr[], int size)
 {
          int cnt = 0;
          
-          printf("Elements which are multiple of 11 are :\n");
+         printf("Elements which are multiple of 11 are :\n");
           
          for(cnt = 0; cnt < size ; cnt++)
          {
