@@ -1,6 +1,5 @@
 /*
-Accept N numbers from user and display all such elements which are
-divisible by 3 and 5.
+Accept N numbers from user and display all such elements which are divisible by 3 and 5.
 Input : N : 6
 Elements : 85  66  15  80  93  45
 Output :    15  45
@@ -13,7 +12,7 @@ void Display ( int arr[], int size)
 {
          int cnt = 0;
          
-          printf("Elements which are divisible by 3 and 5 are :\n");
+         printf("Elements which are divisible by 3 and 5 are :\n");
           
          for(cnt = 0; cnt < size ; cnt++)
          {
