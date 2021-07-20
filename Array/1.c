@@ -19,11 +19,11 @@ int Difference( int arr[], int size)
          {
                 if((arr[cnt] %2) ==0)
                 {
-                          sum1 = sum1 + arr[cnt];
+                      sum1 = sum1 + arr[cnt];
                 }
                 else
                 {
-                          sum2 = sum2 + arr[cnt];
+                      sum2 = sum2 + arr[cnt];
                 }
                 
          }
@@ -44,15 +44,15 @@ int main()
         
         if(ptr == NULL)
         {
-               printf("Unable to allocate memory:");
-               return -1;
+             printf("Unable to allocate memory:");
+             return -1;
         }
         
         printf("Elements are:");
         
         for(cnt = 0 ; cnt < length ; cnt++)
         {
-                scanf("%d", &ptr[cnt]);
+            scanf("%d", &ptr[cnt]);
         }
         
         ret = Difference( ptr, length);
