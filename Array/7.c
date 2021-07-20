@@ -20,7 +20,7 @@ int CountDifference( int arr[], int size)
          {
                 if((arr[cnt] %2) ==0)
                 {
-                         Counter_1++;
+                        Counter_1++;
                 }
                 else
                 {
