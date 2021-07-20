@@ -17,7 +17,7 @@ int CountEven( int arr[], int size)
          {
                 if((arr[cnt] %2) ==0)
                 {
-                         Counter++;
+                     Counter++;
                 }    
          }
          return Counter ;
