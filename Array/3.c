@@ -12,7 +12,7 @@ void Display ( int arr[], int size)
 {
          int cnt = 0;
          
-          printf("Elements which are even and divisible by 5 are :\n");
+         printf("Elements which are even and divisible by 5 are :\n");
           
          for(cnt = 0; cnt < size ; cnt++)
          {
